@@ -49,6 +49,10 @@ header{
     top: 0;
     position: fixed;
 }
+.navbar.scrolled {
+  background-color: #000;
+  box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+}
 .nav_items{
     display: flex;
     justify-content: space-between;
@@ -148,3 +152,65 @@ header{
     color: #fff;
 }
 
+/* services */
+.sec{
+    padding: 8% 0 3% 0;
+    width: 85%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+
+}
+
+.heading span{
+    color: orangered;
+    
+}
+.head .heading{
+    font-family: 'lato', 'san-serif';
+}
+
+.head .heading_1{
+  font-family: 'playwrite CU', cursive;
+  color: aliceblue;
+  font-size: 1.4em;
+}
+
+.boxes{
+    margin-top: 4rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+    text-align: center;
+    padding: 5% 0;
+    box-shadow: rgba(0,0,0,1.35) 0 5px 15px;
+    border: 2px solid transparent;
+}
+
+.box img{
+    width: 150px;
+}
+.box p{
+    max-width: 275px;
+    margin-inline:  auto;
+    text-align: center;
+    line-height: 1.75;
+    color: #888;
+}
+
+.box h4{
+    margin: 1rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.box:hover{
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
