@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    transition: all 0.5s linear;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+body{
+    background: #1A1110;
+    font-family: "Outfit", sans-serif;
+
+}
+
+header{
+    position: relative;
+    padding: 2em 0;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url("./img/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}  
+
+.logo{
+    font-size: 2em;
+    font-weight: 700;
+    flex: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+    margin-right: 1%;
+}
+
+.navbar{
+    width: 100%;
+    padding: 2rem 3rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+}
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.item{
+    display: flex;
+    justify-content: center;
+}
+.nav_items li{
+    list-style: none;
+    padding: 1em;
+}
+
+.nav_items li a{
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav_items li::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: orangered;
+    display: block ;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav_items li:hover::before{
+    width: 100%;
+}
+
+.btn{
+    padding: 9px 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: orangered;
+    border: 2px solid orangered;
+    transition: al 0.5s ease-out;
+}
+
+.nav_menu{
+    display: none;
+}
+
