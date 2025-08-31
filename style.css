@@ -265,3 +265,30 @@ header{
     color: #000;
 }
 
+/* contact us */
+.contact{
+    margin-top: 6%;
+    width: 100%;
+    background-color: #312c2a;
+}
+
+.contact_box{
+    display: grid;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left_box .heading_1{
+   color: orangered;
+}
+.right_box{
+   text-align: right; 
+}
+
+.right_box img{
+    width: 100%;
+}
+
