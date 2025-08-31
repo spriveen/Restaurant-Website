@@ -261,7 +261,7 @@ header{
    padding: 4%; 
 }
 
-.box1_text button:hover{
+.box1_text button :hover{
     color: #000;
 }
 
@@ -291,4 +291,92 @@ header{
 .right_box img{
     width: 100%;
 }
+
+/* footer */
+.footer_container{
+    display: grid;
+    gap: 4rem 2rem;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.footer_logo img{
+    max-width: 40px;
+}
+
+.footer_logo span{
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.footer_col .footer_text{
+   max-width: 350px;
+    color: #999;
+    margin: 2rem 0;
+}
+
+.footer_socials{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.footer_socials a{
+   font-size: 1.8rem; 
+   text-decoration: none;
+   padding: 3%;
+}
+
+.footer_socials a:hover{
+    background-color: orangered;
+}
+
+.footer_col h4{
+    font-size: 1.8rem;
+    margin-bottom:2rem;
+    font-weight: 600;
+}
+
+.footer_links{
+   display: grid; 
+   gap: 1rem;
+   list-style: none;
+}
+
+.footer_links a{
+    text-decoration: none;
+    color: #999;
+}
+
+.footer_links a:hover{
+    color: orangered;
+}
+
+.footer_bar{
+    padding: 1rem;
+    font-size: bold;
+    text-align: center;
+}
+
+/* scrolling up */
+.top{
+    background-color: orangered;
+    font-size: 40px;
+    padding: 0.5rem;
+    position: fixed;
+    border-radius: 10%;
+    right: 5%;
+    cursor: pointer;
+    bottom: 8%;
+}
+
+.top:hover{
+    transform: translateY(-.6rem);
+}
+
+.top.show{
+    bottom: 8%;
+}
+
 
