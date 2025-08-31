@@ -379,4 +379,20 @@ header{
     bottom: 8%;
 }
 
+@media only screen and (max-width:1050px){
+    .about_heading{
+        gap: 0 2em;
+    }
+    .about_box{
+       gap: 1em; 
+    }
+    .box_text .btn{
+        padding: 9px;
+        font-size: 15px;
+    }
+    .left_box .heading{
+     font-size: 2.5em;
+    }
+}
+
 
